@@ -16,7 +16,9 @@ As you might have noticed, I am a fan of Rust. I also write games in it:
 
 ## Cvars
 
-If you also write games, consider my library, [cvars](https://crates.io/crates/cvars). It's a Rust implementation on how games have been storing and managing configs since Quake 1. A simple, tested and proven statically typed struct with string accessors. Includes consoles for Macroquad and Fyrox.
+If you also write games, consider my library, [cvars](https://crates.io/crates/cvars). It's a Rust implementation on how games have been storing and managing configs since Quake 1 - tested and proven to work so well that it's still used in Half-Life: Alyx.
+
+The secret? A proc macrto to generate a simple statically typed struct with string accessors. Includes in-game consoles for Macroquad and Fyrox.
 
 ![Macroquad console](https://github.com/martin-t/cvars/raw/HEAD/cvars-console-fyrox/screenshot.png)
 

@@ -1,6 +1,8 @@
-### Evening 👋
+## Evening 👋
 
 I like code that's correct, fast and readable. I'd say "in that order" but that would imply one can't have all three.
+
+## Games
 
 As you might have noticed, I am a fan of Rust. I also write games in it:
 
@@ -12,7 +14,9 @@ As you might have noticed, I am a fan of Rust. I also write games in it:
 
   Currently RustCycles is a very early proof of concept developed in parallel with RecWars - both games share a lot of the architecture even though they use different engines.
 
-Finally, if you're also interested in gamedev, you might like my library, [cvars](https://crates.io/crates/cvars). It's a Rusty take on how games have been storing and managing configs since Quake 1. Includes consoles for Macroquad and Fyrox.
+## Cvars
+
+If you also write games, consider my library, [cvars](https://crates.io/crates/cvars). It's a Rust implementation on how games have been storing and managing configs since Quake 1. A simple, tested and proven statically typed struct with string accessors. Includes consoles for Macroquad and Fyrox.
 
 ![Macroquad console](https://github.com/martin-t/cvars/raw/HEAD/cvars-console-fyrox/screenshot.png)
 
